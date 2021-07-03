@@ -1,0 +1,32 @@
+522  mkdir git
+523  cd git/
+524  ls
+525  mkdir test
+526  cd test/
+527  touch index.html
+528  touch styles.css
+529  pwd
+530  git init
+531  git status
+532  git add .
+533  git status
+534  git commit -m"initial commit with blank files"
+535  git status
+536  git add .
+537  git commit -m"update html"
+538  git status
+539  git status
+540  git add styles.css 
+541  git commit -m"update css"
+542  git log
+543  git log
+544  git revert --help
+545  git reset --hard 19736c60c67ac9e163dc7a32dc4cd04eea4a2c83
+546  git log
+547  git remote add origin https://github.com/Nathan-Langione/test.git
+548  git branch -M main
+549  git push -u origin main
+550  git add .
+551  git status
+552  git commit -m"Revert to your last commit, make changes, and recommit"
+553  history
